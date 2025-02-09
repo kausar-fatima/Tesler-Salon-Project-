@@ -1,0 +1,81 @@
+ body {
+    background-image: url("x.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+   } 
+#size1{
+font-size: 20px;
+color: brown;
+margin-right: 10px;
+   }
+ #size2{
+    font-size: 20px;
+    color: brown;
+    }
+    #size3{
+        font-size: 20px;
+        color: brown;
+        }
+        #size4{
+            font-size: 20px;
+            color: brown;
+            }
+#title{
+    color: white;
+    margin-top: 6%;
+    font-size: 248%;
+}
+#h2{
+    color: white;
+    font-size:xx-large;
+}
+#h4{
+    color: white;
+    font-size:x-large;
+    font-weight:100;
+}
+#Email{
+    color: white;
+    font-size:xx-large;
+    text-align: center;
+}
+#searchbar{
+    width:81%;
+    margin-left: 66px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  form.example input[type=text] {
+    padding: 7px;
+    font-size: 17px;
+    border: 1px solid rgb(158 139 141);
+    float: center;
+    background: #f1f1f1;
+    width: 50%;
+  }
+  
+  form.example button {
+    float: center;
+    width: 20%;
+    padding: 7px;
+    background: rgb(158 139 141);;
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: rgb(158 139 141);;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

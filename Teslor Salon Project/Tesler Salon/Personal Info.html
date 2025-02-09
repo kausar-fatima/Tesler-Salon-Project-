@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap CSS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="Home.css">
+
+  <title>Tesler Salon</title>
+</head>
+
+<body>
+
+  <body class="bg-light">
+
+    <div class="container">
+      <main>
+        <div class="py-5 text-center">
+          <img class="d-block mx-auto mb-4" src="logo.png" alt="" width="120" height="120">
+          <h2 style="color:white">Personal information</h2>
+          <br><br>
+
+          <div class="row g-5 my-10">
+            <div class="col-md-5 col-lg-4 order-md-last">
+              <h4 class="d-flex justify-content-between align-items-center mb-3">
+                <span class="text-light">Your cart</span>
+              </h4>
+              <ul class="list-group mb-3">
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                  <div>
+                    <h6 class="my-0" style="color:rgb(215 174 169);">Product name</h6>
+                    <small class="text-muted" style="color:rgb(215 174 169);">Brief description</small>
+                  </div>
+                  <span class="text-muted" style="color:rgb(215 174 169);">$12</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                  <div>
+                    <h6 class="my-0" style="color:rgb(215 174 169);">Second product</h6>
+                    <small class="text-muted" style="color:rgb(215 174 169);">Brief description</small>
+                  </div>
+                  <span class="text-muted" style="color:rgb(215 174 169);">$80</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                  <div>
+                    <h6 class="my-0" style="color:rgb(215 174 169);">Third item</h6>
+                    <small class="text-muted" style="color:rgb(215 174 169);">Brief description</small>
+                  </div>
+                  <span class="text-muted" style="color:rgb(215 174 169);">$50</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                  <span style="color:rgb(215 174 169);">Total (USD)</span>
+                  <strong style="color:rgb(215 174 169);">$142</strong>
+                </li>
+              </ul>
+
+            </div>
+            <div class="col-md-7 col-lg-8 align-left">
+              <h4 class="d-flex justify-content-between align-items-center mb-3">
+                <span class="text-light">Contact information</span>
+              </h4>
+              <div class="col-12">
+                <label for="email" class="form-label" style="color:rgb(215 174 169);">Email <span
+                    class="text-muted">(Optional)</span></label>
+                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                <div class="invalid-feedback" style="color:rgb(215 174 169);">
+                  Please enter a valid email address for shipping updates.
+                </div>
+              </div>
+
+              <h4 class="d-flex justify-content-between align-items-center mb-3">
+                <span class="text-light" style="color:white;">Shipping address</span>
+              </h4>
+              <form class="needs-validation" novalidate="">
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <label for="firstName" class="form-label" style="color:white;">First name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                    <div class="invalid-feedback">
+                      Valid first name is required.
+                    </div>
+                  </div>
+
+                  <div class="col-sm-6">
+                    <label for="lastName" class="form-label" style="color:white;">Last name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                    <div class="invalid-feedback">
+                      Valid last name is required.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="username" class="form-label text-light" style="color:white;">Username</label>
+                    <div class="input-group has-validation">
+                      <span class="input-group-text">@</span>
+                      <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                      <div class="invalid-feedback">
+                        Your username is required.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="address" class="form-label" style="color:white;">Address</label>
+                    <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                    <div class="invalid-feedback">
+                      Please enter your shipping address.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="address2" class="form-label" style="color:white;">Address 2 <span
+                        class="text-muted">(Optional)</span></label>
+                    <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                  </div>
+
+                  <div class="col-md-5">
+                    <label for="country" class="form-label" style="color:white;">Country</label>
+                    <select class="form-select" id="country" required="">
+                      <option value="" style="color:rgb(215 174 169);">Choose...</option>
+                      <option>United States</option>
+                    </select>
+                    <div class="invalid-feedback" style="color:white;">
+                      Please select a valid country.
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <label for="state" class="form-label" style="color:white;">State</label>
+                    <select class="form-select" id="state" required="">
+                      <option value="" style="color:white;" style="color:white;">Choose...</option>
+                      <option>California</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please provide a valid state.
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <label for="zip" class="form-label" style="color:white;">Zip</label>
+                    <input type="text" class="form-control" id="zip" placeholder="" required="">
+                    <div class="invalid-feedback">
+                      Zip code required.
+                    </div>
+                  </div>
+                </div>
+
+                <hr class="my-4">
+
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="save-info">
+                  <label class="form-check-label" for="save-info" style="color:white;"">Save this information for next time</label>
+                  </div>
+        
+                  <hr class=" my-4">
+
+                    <h4 class="mb-3" style="color:white;">Payment</h4>
+
+                    <div class="my-3">
+                      <div class="form-check">
+                        <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked=""
+                          required="" style="color:white;">
+                        <label class="form-check-label" for="credit" style="color:white;">Credit card</label>
+                      </div>
+                      <div class="form-check">
+                        <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required=""
+                          style="color:white;">
+                        <label class="form-check-label" for="debit" style="color:white;">Debit card</label>
+                      </div>
+                      <div class="form-check">
+                        <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required=""
+                          style="color:white;">
+                        <label class="form-check-label" for="paypal" style="color:white;">PayPal</label>
+                      </div>
+                    </div>
+
+                    <div class="row gy-3">
+                      <div class="col-md-6">
+                        <label for="cc-name" class="form-label" style="color:white;">Name on card</label>
+                        <input type="text" class="form-control" id="cc-name" placeholder="" required=""
+                          style="color:white;">
+                        <small class="text-muted" style="color:white;">Full name as displayed on card</small>
+                        <div class="invalid-feedback" style="color:white;">
+                          Name on card is required
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <label for="cc-number" class="form-label" style="color:white;">Credit card number</label>
+                        <input type="text" class="form-control" id="cc-number" placeholder="" required=""
+                          style="color:white;">
+                        <div class="invalid-feedback" style="color:white;">
+                          Credit card number is required
+                        </div>
+                      </div>
+
+                      <div class="col-md-3">
+                        <label for="cc-expiration" class="form-label" style="color:white;">Expiration</label>
+                        <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                        <div class="invalid-feedback" style="color:white;">
+                          Expiration date required
+                        </div>
+                      </div>
+
+                      <div class="col-md-3">
+                        <label for="cc-cvv" class="form-label" style="color:white;">CVV</label>
+                        <input type="text" class="form-control" id="cc-cvv" placeholder="" required=""
+                          style="color:white;">
+                        <div class="invalid-feedback" style="color:white;">
+                          Security code required
+                        </div>
+                      </div>
+                    </div>
+
+                    <hr class="my-4">
+
+                    <button class="w-100 btn btn-lg" type="submit"
+                      style="color:white; background-color: rgb(215 174 169);">Continue Shipping</button>
+              </form>
+            </div>
+          </div>
+      </main>
+
+      <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">© 2017–2022 Company Name</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Privacy</a></li>
+          <li class="list-inline-item"><a href="#">Terms</a></li>
+          <li class="list-inline-item"><a href="#">Support</a></li>
+        </ul>
+      </footer>
+    </div>
+
+
+    <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+
+    <script src="form-validation.js"></script>
+
+
+  </body>
+
+</body>

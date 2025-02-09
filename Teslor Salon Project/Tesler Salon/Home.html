@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <!-- Bootstrap CSS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="Style.css">
+
+  <title>Tesler Salon</title>
+</head>
+
+<body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-2"><br>
+        <a href="Home.html">
+          <img src="TSLogo.png" class="img-fluid" style="width: 155px;" alt=""></a><br>
+      </div><br>
+      <div class="col-8 text-center">
+        <h3 id="title">Tesler Salon</h3><br>
+        <form class="example">
+          <input type="text" placeholder="Search.." name="search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+      <div class="col-2" style="margin-top: 135px;"><a href="Cart.html"><button class="btn btn-outline-light"
+            type="submit"><i class="bi bi-cart-dash"></i></button></a></div>
+      <div class="container-fluid h-100 my-4">
+        <div class="row h-100 border">
+          <div class="col-2 collapse d-md-flex bg-faded pt-2 h-100 border" id="sidebar">
+            <ul class="nav nav-pills flex-column">
+              <li class="nav-item"><a class="nav-link" href="Home.html">
+                  <h4 id="h4" style="font-weight:light">Home</h4>
+                </a></li>
+              <li class="nav-item"><a class="nav-link" href="Our Team.html">
+                  <h4 id="h4" style="font-weight:light">Our Team</h4>
+                </a></li>
+              <li class="nav-item">
+                <a class="nav-link collapsed" href="#submenu1" data-toggle="collapse" data-target="#submenu1">
+                  <h4 id="h4" style="font-weight:light">Services</h4>
+                </a>
+                <div class="collapse" id="submenu1" aria-expanded="false">
+                  <ul class="flex-column pl-2 nav">
+                    <li class="nav-item">
+                      <a class="nav-link py-0" href="#submenu2" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                        <h4 id="h4" style="font-weight:light">Book Now</h4>
+                      </a>
+                    </li>
+
+
+
+
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1"
+                      id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+
+                      <div class="container border" style="background-color: rgb(158 139 141)">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <br>
+                        <h4 style="text-align:center; color:white;">Tesler Salon</h4>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img
+                          src="TSLogo.png" alt="" width="135" height="135">
+                      </div><br>
+                      <div class="offcanvas-body">
+                        <h5 style="color:rgb(158 139 141);">APPOINTEMENT PREFERENCE</h5>
+                        <hr>
+                        <a href="sign up.html" style="color: rgb(158 139 141);">
+                          <h6>Individual Appointement</h6>
+                        </a>
+
+                        <hr>
+                        <a href="sign up.html" style="color: rgb(158 139 141);">
+                          <h6>Group Appointements</h6>
+                        </a>
+                        <hr>
+                        <a href="GiftCard.html" style="color:rgb(158 139 141);">
+                          <h6>Purchase a Gift Card</h6>
+                        </a>
+                      </div>
+                    </div>
+
+
+
+                    <li class="nav-item">
+                      <a class="nav-link collapsed py-0" href="" data-toggle="collapse" data-target="#submenu1sub1">
+                        <h4 id="h4" style="font-weight:light"><a href="Collection Page.html"
+                            style="color:white; margin-left:16px; text-decoration: none;">Shop Products</h4>
+                      </a></a>
+                      <div class="collapse small" id="submenu1sub2" aria-expanded="false">
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link collapsed" href="#submenu1" data-toggle="collapse" data-target="#submenu2">
+                  <h4 id="h4" style="font-weight:light">Account</h4>
+                </a>
+                <div class="collapse" id="submenu2" aria-expanded="false">
+                  <ul class="flex-column pl-2 nav">
+                    <li class="nav-item"><a class="nav-link py-0" href="Sign in.html">
+                        <h4 id="h4" style="font-weight:light">Sign in</h4>
+                      </a></li>
+                    <li class="nav-item">
+                      <a class="nav-link collapsed py-0" href="#submenu2sub1" data-toggle="collapse"
+                        data-target="#submenu2sub1">
+                        <h4 id="h4" style="font-weight:light">Sign out</h4>
+                      </a>
+                      <div class="collapse small" id="submenu1sub1" aria-expanded="false">
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col pt-2 my-4" style="background-color: rgb(158 139 141);">
+            <dl>
+              <dt>
+                <h2 style="color:white;">
+
+                  Your Best Beauty Ritual
+                </h2>
+              </dt>
+
+              <dd style="color:white; margin-left: 35px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tesler Salon
+                is located in the bustling community of Silver Lake. Inside you’ll find yourself in an oasis, surrounded
+                by beauty and world-renowned talented stylists and creatives.<br>
+
+                Our mission is to bring the highest level of service and experience to this side of the neighborhood,
+                with the goal of having everyone leave feeling beautiful from the inside out. Between the amazing
+                people, beautiful setting and natural lighting, we are sure you’ll fall instantly in love with Tesler
+                Salon.</dd>
+            </dl>
+            <h2 style="color:white;">Services
+            </h2>
+            <ul style="color:white;">
+              <h4>Haircut / Style / Treatment</h4>
+              <li>Blow-Dry $65+</li>
+
+              <li>Haircut $125+ / Men's $75+</li>
+
+              <li>Updo $150+</li>
+
+              <li>Conditioning Treatments $50+</li>
+
+              <li>Brazilian Blowout $350+</li>
+            </ul>
+            <ul style="color:white;">
+              <h4>Color</h4>
+              <li>Base / Roots $125+</li>
+
+              <li>All Over Color: $200+</li>
+
+              <li>Full Highlights / Balayage / Foilyage $350+</li>
+
+              <li>Partial Highlights / Balayage / Foilyage $275+</li>
+
+              <li>Face Framing Highlights / Balayage / Foilyage: $125+</li>
+
+              <li>Gloss/Toner $75+</li>
+
+              <li>Color Correction $400+</li>
+
+              <li>Creative Color $400+</li>
+
+              <li>Bleach and Tone $250+</li>
+
+              <li>Lowlights $75</li>
+            </ul>
+            <ul style="color:white;">
+              <h4>Makeup</h4>
+              <li>Starting at $150</li>
+            </ul>
+            <ul style="color:white;">
+              <h4>Extensions</h4>
+              <li>We offer Tape-ins, Wefts, K-tips, and more! Prices available upon consultation.</li>
+
+              <li>Weddings + Special Occasion prices available upon consultation.</li>
+            </ul>
+            <div class="container bg-light"><br>
+              <h5 style="text-align:center; color:rgb(158 139 141); font-weight: 60%;">WE ARE AVAILABLE ON
+              </h5><br>
+              <h5 style="text-align:center; color:rgb(158 139 141); font-weight: 60%;">TUES-SAT 9AM-6PM</h5><br>
+              <div class="container row md-6px">
+                <div class="col-md-6">
+                  <h1 style="text-align: center; color:rgb(158 139 141);">Where to find us?</h1>
+                </div>
+                <div class="col-md-6">
+                  <div class="container bg-light border">
+                    <a href="https://www.google.com/maps/place/Tesler+Salon/@34.1021723,-118.2611323,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2c72904806923:0x1856cb97bac600ef!8m2!3d34.1021723!4d-118.2589436"
+                      style="color:rgb(158 139 141);">
+                      <h5 style="text-align: center;">2476 Glendale Blvd.<br>
+
+                        Los Angeles CA<br> 90039</h5>
+                    </a>
+                  </div>
+                  <br><br>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="container my-4 border">
+
+              <div class="container row">
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-6">
+                  <h2 style="color:white;">Our Founder</h2>
+                  <p style="color:white;text-align:justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Emmy-nominated celebrity
+                    hair and make-up artist Adriana Tesler has garnered a reputation for being the industry’s best kept
+                    secret for many years. Voted “Best Blow-out in LA” in Allure Magazine’s Best of the Best two years
+                    in a row, her talent has taken her to some of the most illustrious facets of the industry. Whether
+                    at New York Fashion Week alongside Guido Paulo, Didier Malige, or Anthony Turner, to gracing the
+                    covers of international publications, such as Vogue (British, Italia, Turkey), with renowned
+                    photographers Peter Lindbergh, Terry Richardson, Willy Vanderperre, and Alasdair McLellan, or
+                    television shows, and red carpets for Kate Beckinsale, Molly Sims, Paris Hilton, Nicky Hilton, Rita
+                    Wilson, Jen Meyer, Zoe Saldana, Sofia Vergara, or Tamera Mowry, Adriana is considered one of the
+                    best talents in the industry. Her salon experience covers some of the most acclaimed salons, from
+                    the prestigious Art Luna in Santa Monica, to the famed Neil George, and working under celebrity
+                    colorist Tracey Cunningham in Beverly Hills. Adriana created Tesler Salon with the intent to bring
+                    the highest level of services she provides to the Silver Lake area, and has assembled a superstar
+                    team of artists in that endeavor. She is known for her beautiful highlights and balayage,
+                    outstanding and lasting blow-outs, and pristine make-up.</p>
+                </div>
+                <div class="col-md-4">
+                  <br><br><br>
+                  <img src="adriana tesler.jpg" alt="" width="300" height="400" style="margin-top:26px;">
+                  <br>
+                  <a href="https://www.instagram.com/accounts/login/?next=/adriana_tesler/" style="color:white;">
+                    <p style="text-align: center;">@adriana_tesler
+                  </a>
+                </div>
+                <div class="col-md-1">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Information row -->
+
+          <div class="container-fluid">
+            <div class="row" id="border">
+              <div class="col-sm-6 border"
+                style="border:2px solid rgb(158 139 141); background-color: rgb(158 139 141);">
+                <img src="TSlogo.png" class="img-fluid" style="width: 180px; margin-right: 235px; margin-left: 235px;"
+                  alt="">
+                <br>
+                <h2 id="Email">Subscribe to our Email</h2>
+                <form>
+                  <div class="row mb-3">
+                    <label class="col-sm-2 col-form-label" style="text-align: right;
+            color: white;">Email:</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" style="width: 73%;margin-right: 50px;margin-left: 20px;">
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <div class="col-md-6 border" id="border">
+                <div class="row">
+                  <div class="col-md-6" style="border:2px solid rgb(158 139 141); background-color: rgb(158 139 141);">
+                    <h2 id="h2">CONTACT</h2>
+                    <a href="info@teslersalon.com" style="text-decoration:none ;">
+                      <h4 id="h4">info@teslersalon.com</h4>
+                    </a>
+                    <a href="323.922.1003" style="text-decoration:none ;">
+                      <h4 id="h4">323.922.1003</h4>
+                    </a>
+                  </div><br>
+                  <div class="col-md-6" style="border:2px solid rgb(158 139 141); background-color: rgb(158 139 141);">
+                    <h2 id="h2">FOLLOW US</h2>
+                    <a href="https://web.facebook.com/teslersalon?_rdc=1&_rdr" style="text-decoration:none ;">
+                      <h4 id="h4">Facebook</h4>
+                    </a>
+                    <a href="https://www.instagram.com/accounts/login/?next=/teslersalon/"
+                      style="text-decoration:none ;">
+                      <h4 id="h4">Instagram</h4>
+                    </a>
+                  </div>
+                </div><br>
+                <div class="row">
+                  <div class="col-md-6" style="border:2px solid rgb(158 139 141);background-color: rgb(158 139 141);">
+                    <h2 id="h2">ADDRESS</h2>
+                    <a href="https://www.google.com/maps/place/Tesler+Salon/@34.1021723,-118.2611323,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2c72904806923:0x1856cb97bac600ef!8m2!3d34.1021723!4d-118.2589436"
+                      style="text-decoration:none ;">
+                      <h4 id="h4">2476 Glendale Blvd.</h4>
+                    </a>
+                    <a href="https://www.google.com/maps/place/Tesler+Salon/@34.1021723,-118.2611323,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2c72904806923:0x1856cb97bac600ef!8m2!3d34.1021723!4d-118.2589436"
+                      style="text-decoration:none ;">
+                      <h4 id="h4">Los Angeles CA 90039</h4>
+                    </a>
+                  </div>
+                  <div class="col-md-6" style="border:2px solid rgb(158 139 141);background-color: rgb(158 139 141);">
+                    <h2 id="h2">POLICY</h2><a href="https://teslersalon.com/pages/privacy-shipping"
+                      style="text-decoration:none ;">
+                      <h4 id="h4">Privacy / Shipping</h4>
+                    </a>
+                    <a href="https://teslersalon.com/" style="text-decoration:none ;">
+                      <h4 id="h4">TESLER SALON © 2017–2022</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+              integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+              crossorigin="anonymous">
+</body>
